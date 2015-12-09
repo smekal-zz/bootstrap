@@ -11,7 +11,17 @@ Updated: December 2015
 /* --------------------------------------
    Layout
    -------------------------------------- */
+#features{
+   text-align: center;
+}
 
+#features img{
+   margin : 0 0 20px;
+}
+
+#inputMessage{
+   margin-bottom: 20px;
+}
 
 
 /* --------------------------------------
@@ -78,10 +88,15 @@ body{
    -------------------------------------- */
 .alert {
    margin-top: 20px;
+   display: none;
 }
 
 .well {
    margin: 20px 0;
+}
+
+.tabbable img.thumbnail{
+   margin: 0 20px 10px 0;
 }
 
 /* --------------------------------------
