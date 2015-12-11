@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Vector Services with Bootstrap</title>
+    <title>Home | Vector Services with Bootstrap</title>
     <meta name="description" content="Vector Services with responsive design using Bootstrap">
     <!-- Bootstrap -->
     <link rel="stylesheet" type="text/css"  href="css/bootstrap.min.css" >
@@ -16,19 +16,148 @@
   </head>
   <body>
     <div class="container" id="main">
-      <div class="navbar navbar-fixed-top">
-        
-      </div> <!-- end navbar -->
+      <nav class="navbar navbar-fixed-top">
+        <div class="container">
+          
+          <div class="navbar-header">
+            <button class="navbar-toggle" data-target="#navbar-collapse-1" data-toggle="collapse" type="button" aria-expanded="false">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+        </button>
+            <a href="#" class="navbar-brand">
+              <img src="images/logo.png"  alt="Your Logo" >
+            </a>
+          </div><!-- end navbar-header -->
+          <div class="collapse navbar-collapse" id="navbar-collapse-1">
+            <ul class="nav navbar-nav">
+              <li class="active">
+                <a href="#">Home <span class="sr-only">(current)</span>
+                </a>
+              </li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">
+                  Portfolio <strong class="caret"></strong>
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Tablets</a></li>
+                  <li><a href="#">Mobiles</a></li>
+                  <li><a href="#">Cameras</a></li>
+                  <li><a href="#">Accessories</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li><a href="#">Mobile Broadband</a></li>
+                  <li><a href="#">Fiber Broadband</a></li>
+                </ul><!-- end drop-menu -->
+              </li><!-- end dropdown -->
+              <li><a href="#">Services</a></li>
+            </ul> <!-- end nav -->
+            <form action="" class="navbar-form navbar-right" role="search">
+                  <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Search">
+                  </div>
+                <button type="submit" class="btn btn-default">
+                  <span class="glyphicon glyphicon-search"></span>
+                </button>
+            </form> <!-- end navbar-form -->
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#">About Us</a></li>
+            </ul>
+          </div> <!-- end collapse -->
+        </div>
+      </nav> <!-- end navbar -->
 
       <div class="carousel slide" id="myCarousel">
+        <!-- Indicators  -->
+        <ol class="carousel-indicators">
+          <li class="active" data-slide-to="0" data-target="#myCarousel"></li>
+          <li data-slide-to="1" data-target="#myCarousel"></li>
+          <li data-slide-to="2" data-target="#myCarousel"></li>
+        </ol>
         
+        <!-- wrapper for slides -->
+        <div class="carousel-inner">
+          <div class="item active" id="first-slide">
+            <div class="carousel-caption">
+              <h4>Lumia 950 powered by Winows 10</h4>
+              <p>Microsoft Lumia 950 deals & contracts exclusively on Vector</p>
+            </div>
+          </div><!-- end item -->
+          <div class="item" id="second-slide">
+            <div class="carousel-caption">
+              <h4>Game Changing gifts</h4>
+              <p>This Christmas, banish boring gifts and keep everyone entertained and connected</p>
+            </div>
+          </div><!-- end item -->
+          <div class="item" id="third-slide">
+            <div class="carousel-caption">
+              <h4>Its NO BRAINER Offer</h4>
+              <p>Shop Around All You Like, But We're telling you these deals are a NO BRAINER</p>
+            </div>
+          </div><!-- end item -->
+        </div><!-- end carousel-inner -->
+
+        <!-- carousel controls -->
+        <a href="#myCarousel" class="left carousel-control" data-slide="prev">
+          <span class="icon-prev"></span>
+        </a>
+        <a href="#myCarousel" class="right carousel-control" data-slide="next">
+          <span class="icon-next"></span>
+        </a>
       </div><!-- end carousel -->
 
       <div class="row" id="myServices">
+        <div class="col-12">
+          <div class="well">
+            <div class="page-header">
+              <h1>Services <small>we provide vector-ful solutions</small></h1> 
+            </div>
+            <p class="lead">We're the India's Overall Network Performance Winner - and that's official.* In over a million RootMetrics® tests we came top for network reliability and speed, mobile internet, call and text performance.</p>
+            
+          </div><!-- end well -->
+        </div><!-- end clo-12 -->
 
       </div> <!-- end myServices -->
 
+      <div class="row" id="featuresHeading">
+        <div class="col-12">
+          <h2>Features</h2>
+          <p class="lead">We own a portfolio of assets, managed by a team with shared values and aspirations. We are leveraging our heritage as India's largest digital communications, our broad portfolio of operations and the pivotal role we play in the country's economic development.</p>
+        </div> <!-- end col-12  -->
+      </div><!-- end featuresHeading -->
+
       <div class="row" id="features">
+        <div class="col-sm-4 feature">
+        <div class="panel">
+          <div class="panel-heading">
+            <h3 class="panel-title">Rs 1000 off all Fibre plans</h3>
+          </div>
+          <img src="images/fiber_plans.png" alt="Fiber Plans" class="img-circle">
+          <p>Get unlimited fibre broadband and weekend calls for Rs 995 a month for 18 months, then Rs 1995 (18 month contract).</p>
+          <a href="#" class="btn btn-block btn-warning">Fiber Plans</a>
+        </div>
+        
+      </div> <!-- end col-sm-4 -->
+      <div class="col-sm-4 feature">
+        <div class="panel">
+          <div class="panel-heading">
+            <h3 class="panel-title">Offers</h3>
+          </div>
+          <img src="images/special-offer.png" alt="Special Offers" class="img-circle">
+          <p>10GB of data. No upfront cost plus save 10% a month. That’s Rs 2950 a month (was Rs 3300). 4GB of data, unlimited minutes and texts.</p>
+          <a href="#" class="btn btn-block btn-danger">More deals</a>
+        </div>
+        
+      </div> <!-- end col-sm-4 -->
+      <div class="col-sm-4 feature">
+        <div class="panel">
+          <div class="panel-heading">
+            <h3 class="panel-title">Vector Community</h3>
+          </div>
+          <img src="images/community.png" alt="Vector Community" class="img-circle">
+          <p>Welcome to the Vector Community - a place where Vector customers can find solutions to problems and share technical know-how.</p>
+          <a href="#" class="btn btn-block btn-info">Find Solutions</a>
+        </div>
+      </div> <!-- end col-sm-4 -->
 
       </div> <!-- end features -->
 
