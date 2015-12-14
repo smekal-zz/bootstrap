@@ -12,14 +12,6 @@ body{
     background-color: #ecf2f6; 
 }
 
-#features{
-   text-align: center;
-}
-
-#features img{
-   margin : 0 0 20px;
-}
-
 footer{
    background-color: #dff0d8;
    font-size: 14px;
@@ -41,8 +33,6 @@ footer ul{
    padding-left: 0;
 }
 
-
-
 /* --------------------------------------
    Typography
    -------------------------------------- */
@@ -50,52 +40,6 @@ body{
    -webkit-font-smoothing : antialiased;
    text-rendering : optimizelegibility;
 }
-
-.well .page-header{
-   margin-top: 0;
- }
-
-.well .page-header h1{
-   margin-top: 0;
-   font-size:28px;
-}
-#featuresHeading{
-   padding: 15px;
-}
-#featuresHeading h2{
-   font-size: 24px;
-}
-#featuresHeading p{
-   font-size: 18px;
-}
-
-.panel-heading{
-   margin: -15px -15px 15px;
-}
-
-.panel-title {
-   font-size: 17.5px;
-}
-
-.panel{
-   padding: 15px;
-   margin-bottom: 20px;
-}
-
-#moreInfo{
-   margin: 30px 0;
-   padding: 0 10px 20px;
-   border-color: #d3e0e9;
-   background-color: #ffffff;
-   border: 1.5px solid #d3e0e9;
-   border-radius: 8px;
-   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
-}
-
-.tab-content{
-   margin: 15px;
-}
-
 
 /* --------------------------------------
    Navbar
@@ -175,7 +119,88 @@ body{
 /* --------------------------------------
    Global Styles
    -------------------------------------- */
+.well {
+   background-color: #fff;
+   color: black;
+}
 
+.well .page-header{
+   margin-top: 0;
+ }
+
+.page-header {
+   border-bottom: 1px solid #1abc9c;
+ }
+
+#myServices{
+   margin-top: 30px;
+}
+
+#myPortfolio{
+   margin-top: 70px;
+   margin-bottom: 20px;
+}
+
+.well .page-header h1{
+   margin-top: 0;
+   font-size:24px;
+}
+
+.well p{
+   font-size:18px;
+}
+
+#features, #portfolios{
+   text-align: center;
+}
+
+#features img , #portfolios img{
+   margin : 0 0 20px;
+}
+
+#portfolios{
+   margin-top: 20px;
+   margin-bottom: 20px;
+}
+
+#featuresHeading , #portfolio-filter{
+   padding: 15px;
+}
+#featuresHeading h2{
+   font-size: 24px;
+}
+#featuresHeading p{
+   font-size: 18px;
+}
+
+.panel-heading{
+   margin: -15px -15px 15px;
+}
+
+.panel-title {
+   font-size: 17.5px;
+}
+
+.panel{
+   padding: 15px;
+   margin-bottom: 20px;
+}
+
+#moreInfo{
+   margin: 30px 0;
+   padding: 0 10px 20px;
+   border-color: #d3e0e9;
+   background-color: #ffffff;
+   border: 1.5px solid #d3e0e9;
+   border-radius: 8px;
+   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+.nav-tabs li a{
+   font-size: 16px;
+}
+.tab-content{
+   margin: 15px;
+}
 
 
 /* --------------------------------------
@@ -246,9 +271,4 @@ body{
       background: url("../images/slide1-large.png") top center no-repeat;
       
    }
-}
-
-/* Large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) { 
-
 }
