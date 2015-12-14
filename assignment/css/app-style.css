@@ -1,13 +1,9 @@
 /*
-
 My Custom CSS
 =============
-
 Author:  Sunil Mekala
 Updated: December 2015
-
 */
-
 
 /* --------------------------------------
    Layout
@@ -24,6 +20,27 @@ body{
    margin : 0 0 20px;
 }
 
+footer{
+   background-color: #dff0d8;
+   font-size: 14px;
+   padding: 15px;
+   margin-top: 20px;
+}
+
+footer .company_name{
+   color:#003366;
+   font-weight: bold;
+   font-size: 27px;
+   margin: 0;
+   text-shadow : 1px 2px 2px #66ff33;
+}
+
+footer ul{
+   list-style: none;
+   margin-left: 0;
+   padding-left: 0;
+}
+
 
 
 /* --------------------------------------
@@ -32,6 +49,51 @@ body{
 body{
    -webkit-font-smoothing : antialiased;
    text-rendering : optimizelegibility;
+}
+
+.well .page-header{
+   margin-top: 0;
+ }
+
+.well .page-header h1{
+   margin-top: 0;
+   font-size:28px;
+}
+#featuresHeading{
+   padding: 15px;
+}
+#featuresHeading h2{
+   font-size: 24px;
+}
+#featuresHeading p{
+   font-size: 18px;
+}
+
+.panel-heading{
+   margin: -15px -15px 15px;
+}
+
+.panel-title {
+   font-size: 17.5px;
+}
+
+.panel{
+   padding: 15px;
+   margin-bottom: 20px;
+}
+
+#moreInfo{
+   margin: 30px 0;
+   padding: 0 10px 20px;
+   border-color: #d3e0e9;
+   background-color: #ffffff;
+   border: 1.5px solid #d3e0e9;
+   border-radius: 8px;
+   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+
+.tab-content{
+   margin: 15px;
 }
 
 
@@ -44,6 +106,7 @@ body{
 
 .navbar-fixed-top{
    background-color: #1ca8dd;
+
 }
 
 .navbar-nav>li>a{
@@ -51,7 +114,6 @@ body{
    text-transform: uppercase;
    letter-spacing: 0.5px;
 }
-
 
 .nav .open>a, 
 .nav .open>a:focus, 
@@ -76,7 +138,6 @@ body{
    border: 1px solid #777;
 }
 
-   
    
 /* --------------------------------------
    Carousel
@@ -110,8 +171,6 @@ body{
    background: url("../images/slide1-medium.png") top center no-repeat;
    
 }
-
-
 
 /* --------------------------------------
    Global Styles
