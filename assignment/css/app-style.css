@@ -44,8 +44,9 @@ body{
 /* --------------------------------------
    Navbar
    -------------------------------------- */
-.navbar-brand{
+.navbar>.container .navbar-brand{
    padding: 0;
+   margin-left:0px;
 }
 
 .navbar-fixed-top{
@@ -88,7 +89,7 @@ body{
    -------------------------------------- */
 
 #myCarousel{
-   margin: 60px -15px 20px;
+   margin: 60px 0px 20px;
 
 }
 
@@ -133,12 +134,12 @@ body{
  }
 
 #myServices{
-   margin-top: 30px;
+   margin: 30px 0 0;
 }
 
 #myPortfolio{
-   margin-top: 70px;
-   margin-bottom: 20px;
+   margin: 70px 0 20px;
+   
 }
 
 .well .page-header h1{
