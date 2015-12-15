@@ -13,16 +13,17 @@ body{
 }
 
 footer{
-   background-color: #dff0d8;
+   background-color: #32566f;
    font-size: 14px;
-   padding: 15px;
+   padding: 20px;
    margin-top: 20px;
+   color:#fff;
 }
 
 footer .company_name{
    color:#003366;
    font-weight: bold;
-   font-size: 27px;
+   font-size: 48px;
    margin: 0;
    text-shadow : 1px 2px 2px #66ff33;
 }
@@ -31,6 +32,10 @@ footer ul{
    list-style: none;
    margin-left: 0;
    padding-left: 0;
+}
+
+footer li a , footer li a:hover{
+   color: #fff;
 }
 
 /* --------------------------------------
@@ -50,7 +55,7 @@ body{
 }
 
 .navbar-fixed-top{
-   background-color: #1ca8dd;
+   background-color: #32566f;
 
 }
 
@@ -71,7 +76,7 @@ body{
 .navbar-nav>.active>a:focus, 
 .navbar-nav>.active>a:hover
  {
-   background-color: #1ca8dd;
+   background-color: #32566f;
    color: rgba(255, 255, 255, 1);
 }
 
@@ -188,8 +193,8 @@ body{
 }
 
 #moreInfo{
-   margin: 30px 0;
-   padding: 0 10px 20px;
+   margin: 40px 0;
+   padding: 0 10px 30px;
    border-color: #d3e0e9;
    background-color: #ffffff;
    border: 1.5px solid #d3e0e9;
